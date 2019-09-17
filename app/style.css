@@ -18,11 +18,14 @@ nav {
 }
 
 nav img {
+	width: 180px;
+	margin: 0 auto;
   display: block;
 }
 
 nav span {
   display: block;
+  margin: 10px 0;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -35,18 +38,23 @@ nav a {
 /* Content Container */
 
 .content {
+	margin: 10px auto;
   width: 100%;
+  height: 500px;
 }
 
 /* Content Header */
 
 .header {
+	height: 320px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
   background-position: center;
   background-size: cover;
 }
 
 .header h1 {
+	margin: 0 auto;
+	padding: 20px;
   background-color: #05A8AA;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
@@ -59,6 +67,7 @@ nav a {
 /* Content Body */
 
 .content .body {
+	margin: 0 auto;
   width: 90%;
 }
 
@@ -73,10 +82,14 @@ nav a {
 /* Content Button */
 
 .button {
+	margin: 40px auto;
+	width: 200px;
+	padding: 20px;
   border-radius: 4px;
   color: #05A8AA;
   display: block;
   font-weight: 700;
+  border: 1px solid blue;
 }
 
 .button:hover {
@@ -88,9 +101,13 @@ nav a {
 /* Content Nutrition */
 
 ul.nutrition {
+	padding: 40px;
 }
 
 ul.nutrition li {
+	margin-bottom: 3px;
+	width: 200px;
+	padding: 10px 20px;
   display: inline-block;
   background-color: #05A8AA;
   list-style: none;
